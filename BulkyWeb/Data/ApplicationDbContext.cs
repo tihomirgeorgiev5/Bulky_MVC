@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using BulkyWeb.Models;
+using System.ComponentModel;
 
 namespace BulkyWeb.Data
 {
@@ -8,6 +10,8 @@ namespace BulkyWeb.Data
         {
                 
         }
+
+        public DbSet<CategoryAttribute> MyProperty { get; set; }
 
     }
 }
