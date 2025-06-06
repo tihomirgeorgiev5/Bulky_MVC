@@ -14,8 +14,17 @@
             <label>Display Order</label>
             <input type="text" class="form-control" />
         </div>
-        <button type="submit" class="btn btn-primary" style="width:150px">Create</button>
-        <a asp-controller="Category" asp-action="Index" class="btn btn-secondary" style="width:150px">Back to List</a>
+        <div class="row">
+            <div class="col-6">
+                <button type="submit" class="btn btn-primary form-control">Create</button>
+            </div>
+            <div class="col-6">
+                <a asp-controller="Category" asp-action="Index" class="btn btn-outline-secondary form-control">
+                    Back to List</a>
+            </div>
+        </div>
+       
+       
 
     </div>
 </form>
